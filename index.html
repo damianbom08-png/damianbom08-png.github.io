@@ -1,35 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Portfolio Damian</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
-    <div class="container-md">
-        <div class="row text-bg-info text-center">
-            <div class="col-4"></div>
-            <div class="col-3 ">
-                <h2>portfolio van damian</h1>
-            </div>
-            <div class="col-3"></div>
-        </div>
-        <div class="row">
-            <div style="grid-template-columns: 1fr 1fr;" class="d-grid gap-3">
-                <div class="p-2"><button type="button" class="btn btn-bg-danger btn-link"><a href="contact.html"></a></button></div>
-                <div class="p-2"><button type="button" class="btn btn-bg-danger btn-link"><a href="info.html"></a></button></div>
-                <div class="p-2"><button type="button" class="btn btn-bg-danger btn-link"><a href="portfolio.html"></a></button></div>
-                <div class="p-2"><button type="button" class="btn btn-bg-danger btn-link"><a href="project.html"></a></button></div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <footer class="text-bg-info">
-                    <p>&copy;damian bom</p>
-                </footer>
+
+<body class="bg-light">
+
+<div class="container py-4">
+
+    <!-- Header -->
+    <div class="row">
+        <div class="col">
+            <div class="bg-info text-white text-center p-4 rounded">
+                <h1>Portfolio van Damian</h1>
+                <p>Welkom op mijn website</p>
             </div>
         </div>
     </div>
-</body>
-</html>
+
+    <!-- Menu -->
+    <div class="row g-3 mt-4">
+
+        <div class="col-md-6">
+            <a href="contact.html" class="btn btn-danger w-100 p-3">
+                Contact
+            </a>
+        </div>
+
+        <div class="col-md-6">
+            <a href="info.html" class="btn btn-primary w-100 p-3">
+                Info
+            </a>
+        </div>
+
+        <div class="col-md-6">
+            <a href="portfolio.html" class="btn btn-success w-100 p-3">
+                Portfolio
+            </a>
+        </div>
+
+        <div class="col-md-6">
+            <a href="project.html" class="btn btn-warning w-100 p-3">
+                Projecten
+            </a>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="row mt-5">
+        <div class="col">
+            <footer class="bg-info text-white text-center p-3 rounded">
+                <p class="mb-0">&copy; Damian Bom</p>
+            </footer>
+        </div>
+    </div>
